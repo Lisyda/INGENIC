@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description"
+          content="INGENIC Irish Network for Gender Equality at National 3rd level Institutions for Computing ">
+    <meta name="keywords" content="women, computing, third level education">
+    <meta name="author" content="Daisy Muyldermans, Enya Hand, Lilith Tamm">
+    <title>INGENIC</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="../main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="/main.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<!--INCLUDING HEADER AND NAVIGATION FROM EJS HEADER-->
+<% include ../partials/header.ejs %>
+
+<!-- IMAGE GALLERY -->
+<br>
+<div class="container">
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="/institutions"><img src="/images/logos.png" class="d-block w-100"
+                                                 alt="Institutions Involved"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/news/ingenic-third-meeting"><img src="/images/meetup.jpg"
+                                                               class="d-block w-100"
+                                                               alt="Ingenic Third Meeting News"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/resources"><img src="/images/resourcesSlide.jpg" class="d-block w-100"
+                                              alt="Link to resources page"></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- END OF IMAGE GALLERY-->
+
+<!--INCLUDE FOOTER FROM EJS FOOTER-->
+<% include ../partials/footer.ejs %>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="INGENIC Irish Network for Gender Equality at National 3rd level Institutions for Computing ">
+    <meta name="keywords" content="women, computing, third level education">
+    <meta name="author" content="Daisy Muyldermans, Enya Hand, Lilith Tamm">
+    <title>INGENIC - News</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="../main.js"></script>
+    <link type="text/css" rel="stylesheet" href="/main.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<!--INCLUDING HEADER AND NAVIGATION FROM EJS HEADER-->
+<% include ../partials/header.ejs %>
+
+<!--END OF NAVIGATION BAR-->
+
+<!--NEWS ARTICLES-->
+<div class="container">
+    <br/>
+    <h1 class="menu">News</h1>
+    <br/>
+    <% for (var i = 0; i < newslinks.length; i++) { %>
+        <div class="row mt-3">
+            <% for (var j = 0; j < newslinks[i].length; j++) { %>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center mx-auto" style="width: 15rem; height:18rem;">
+                        <a href="news/<%= newslinks[i][j] %>">
+                            <div class="newsimg"><img src="<%= item[i][j].image %>" class="card-img-top" alt="<%= item[i][j].alttext %>"></div>
+                            <div class="card-body"><h5 class="card-title"><%= item[i][j].title %></h5>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        <% } %>
+</div>
+<% } %>
+</div>
+
+<!--INCLUDE FOOTER FROM EJS FOOTER-->
+<% include ../partials/footer.ejs %>
+
+</body>
+</html>

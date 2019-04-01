@@ -1,0 +1,146 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+/*IMAGES ON THE NEWS PAGE*/
+/*Scales the images within a set image size in the cards*/
+.newsimg .card-img-top {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+/*SITE-WIDE CSS*/
+/*Centres all the headers on the pages*/
+.menu {
+    text-align: center;
+}
+/*ABOUT PAGE*/
+/*Configures the size of the image on the about page*/
+#aboutImg {
+    max-width: 50%;
+    height: auto;
+}
+
+/*Remove borders from any iframe elements on the website*/
+iframe {
+    border: none;
+}
+
+/*NAVBAR CUSTOMISATION*/
+
+#customLink1, #customLink2, #customLink3, #customLink4, #customLink5, #customLink6 {
+    background-color: white;
+    color: black;
+    border: 3px solid #411B46;
+    -webkit-appearance: none;
+}
+
+#customLink1:hover, #customLink2:hover, #customLink3:hover, #customLink4:hover, #customLink5:hover, #customLink6:hover {
+    background-color: #411B46;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#dropLink1, #dropLink2 {
+    background-color: white;
+    color: black;
+    -webkit-appearance: none;
+}
+
+#dropLink1:hover, #dropLink2:hover {
+    background-color: #411B46;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.dropdown-toggle:hover {
+    cursor: pointer;
+}
+
+/*LINES*/
+.rectangle {
+    height: 15px;
+    width: 100%;
+    background-color: #5e2664;
+}
+.rectangle2 {
+    height: 15px;
+    width: 100%;
+    background-color: #411B46;
+}
+
+.rectangle3 {
+    height: 85px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/* SOCIAL MEDIA BUTTONS*/
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    width: 30px;
+    height: 30px;
+    color:  #411B46;
+    background-color: #FFF;
+    border: 1px solid  #411B46;
+    padding-top: 6px;
+    border-radius: 22px;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    /*-o-border-radius: 22px;*/
+}
+
+.socialbtns .fa:hover {
+    list-style: none;
+    color: #FFF;
+    background-color: #411B46;
+    border: 1px solid  #411B46;
+}
+/*END SOCIAL MEDIA BUTTONS*/
+
+/* Screen reader only */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+@media screen and (max-width: 1000px) {
+    /*Configures the size of the image on the about page for the screen*/
+    #aboutImg {
+        max-width: 80vw;
+    }
+}
+
+/*CAROUSEL ARROWS*/
+
+.fa-chevron-left{
+    color: black;
+}
+
+.fa-chevron-right{
+    color: black;
+}

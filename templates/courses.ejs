@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description"
+          content="INGENIC Irish Network for Gender Equality at National 3rd level Institutions for Computing ">
+    <meta name="keywords" content="women, computing, third level education">
+    <meta name="author" content="Daisy Muyldermans, Enya Hand, Lilith Tamm">
+    <title>INGENIC - Courses</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="../main.js"></script>
+    <link type="text/css" rel="stylesheet" href="/main.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+<!--INCLUDING HEADER AND NAVIGATION FROM EJS HEADER-->
+<% include ../partials/header.ejs %>
+
+<div class="container">
+    <br/>
+    <h1 class="menu">Courses Available in Ireland</h1>
+    <br/>
+    <table class="table table-sm">
+        <thead>
+        <tr>
+            <th scope="col">Name of Institution</th>
+            <th scope="col">Level</th>
+            <th scope="col">Title of Course</th>
+        </tr>
+        </thead>
+        <tbody class="table-borderless">
+
+        <!--Trinity College Dublin-->
+        <tr>
+            <th rowspan="10" scope="row" class="border-bottom">Trinity College Dublin</th>
+            <th rowspan="5">UnderGrad:</th>
+            <td><a href="https://scss.tcd.ie/undergraduate/computer-science/" target="_blank">BA (Mod) Computer Science
+                    – 4 years / Master in Computer Science (MCS) – 5 years</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://scss.tcd.ie/undergraduate/computer-science-language/" target="_blank">BA
+                    (Mod) Computer
+                    Science and Language</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://scss.tcd.ie/undergraduate/msiss/" target="_blank">BA Management Science and
+                    Information
+                    Systems Studies (MSISS)</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://scss.tcd.ie/undergraduate/computer-science-business/" target="_blank">BA
+                    (Mod) Computer
+                    Science and Business</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://scss.tcd.ie/undergraduate/computer-engineering/" target="_blank">Computer
+                    Engineering</a></td>
+        </tr>
+        <tr>
+            <th rowspan="5" scope="row" class="border-bottom">PostGrad:</th>
+            <td><a href="https://scss.tcd.ie/postgraduate/msc-cs/" target="_blank">MSc in Computer Science</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://scss.tcd.ie/postgraduate/interactive-digital-media/" target="_blank">MSc in
+                    Interactive
+                    Digital Media</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://scss.tcd.ie/postgraduate/msc-cs/" target="_blank">MSc in Computer
+                    Science</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://scss.tcd.ie/postgraduate/pgcertstats/" target="_blank">Postgraduate
+                    Certificate in
+                    Statistics</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a href="https://scss.tcd.ie/postgraduate/structuredphd/" target="_blank">Structured PhD
+                    Programme</a></td>
+        </tr>
+
+        <!--Dublin City University-->
+        <tr>
+            <th rowspan="6" scope="row" class="border-bottom">Dublin City University</th>
+            <th rowspan="3">UnderGrad:</th>
+            <td><a href="https://www.computing.dcu.ie/undergraduate/bsc-data-science-dc123" target="_blank">BSc in Data
+                    Science</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.computing.dcu.ie/undergraduate/ec/bsc-enterprise-computing-dc120"
+                               target="_blank">BSc
+                    in Enterprise Computing</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.computing.dcu.ie/undergraduate/ca/bsc-computer-applications-dc121"
+                               target="_blank">B.Sc.
+                    in Computer Applications</a></td>
+        </tr>
+        <tr>
+            <th rowspan="3" scope="row" class="border-bottom">PostGrad:</th>
+            <td><a href="https://www.computing.dcu.ie/postgraduate/mcm/msc-computing-mcm" target="_blank">M.Sc. in
+                    Computing</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.computing.dcu.ie/postgraduate/mecbmect/msc-electronic-commerce-mecbmect"
+                        target="_blank">M.Sc. in Electronic Commerce</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a
+                        href="https://www.computing.dcu.ie/postgraduate/mdpp/ma-data-protection-and-privacy-law-mdpp"
+                        target="_blank">M.A. in Data Protection and Privacy Law</a></td>
+        </tr>
+
+        <!--University College Dublin-->
+        <tr>
+            <th rowspan="5" scope="row" class="border-bottom">University College Dublin</th>
+            <th rowspan="2">UnderGrad:</th>
+            <td><a href="https://www.myucd.ie/courses/science/computer-science-data-science/" target="_blank">BSc in
+                    Computer Science/with Data Science</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=PROG&MAJR=T150"
+                               target="_blank">MSc in
+                    Computer Science (Negotiated Learning)</a></td>
+        </tr>
+        <tr>
+            <th rowspan="3" scope="row" class="border-bottom">PostGrad:</th>
+            <td><a href="https://www.cs.ucd.ie/PostgraduateProgrammes/HDip_%28ICT_Skills_Conversion%29/"
+                   target="_blank">MSc/HDip in Computer Science (Conversion)</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.cs.ucd.ie/PostgraduateProgrammes/MSc_DIFC/" target="_blank">MSc in
+                    Digital
+                    Investigation Forensic Computing</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a href="http://www.ucd.ie/cci/education/prospective_students/fcci_programmes/msc_fcci.html"
+                               target="_blank">MSc in Forensic Computing and Cybercrime Investigation</a></td>
+        </tr>
+
+        <!--Technological Dublin University-->
+        <tr>
+            <th rowspan="6" scope="row" class="border-bottom">Technological Dublin University</th>
+            <th rowspan="5">UnderGrad:</th>
+            <td>
+                <a href="https://www.dit.ie/studyatdit/undergraduate/programmescourses/allcourses/computerscienceinfrastructuredt211.html"
+                   target="_blank">BSc (Hons) Computer Science (Infrastructure)</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.dit.ie/studyatdit/undergraduate/programmescourses/allcourses/computersciencedt228.html"
+                        target="_blank">BSc (Hons) Computer Science</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.dit.ie/catalogue/Programmes/Details/DT249" target="_blank">BSc (Hons)
+                    Information
+                    Systems and Information Technology</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.dit.ie/studyatdit/undergraduate/programmescourses/allcourses/computerscienceinternationaldt282.html"
+                        target="_blank">BSc Hons Comp Science (international)</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.dit.ie/studyatdit/undergraduate/programmescourses/allcourses/businesscomputingdt354.html"
+                        target="_blank">Business Computing</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <th rowspan="1" scope="row">PostGrad:</th>
+            <td>
+                <a href="http://www.dit.ie/studyatdit/postgraduate/taughtprogrammes/allcourses/computingdataanalyticsmscdt228aftdt228bpt.html"
+                   target="_blank">MSc Computing</a></td>
+        </tr>
+
+        <!--IT Sligo-->
+        <tr>
+            <th rowspan="8" scope="row" class="border-bottom">IT Sligo</th>
+            <th rowspan="8" class="border-bottom">UnderGrad:</th>
+            <td><a href="https://www.itsligo.ie/courses/bsc-in-computing-in-software-development/" target="_blank">Software
+                    Development</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.itsligo.ie/courses/bsc-in-computing-in-games-development/"
+                               target="_blank">Games
+                    Development</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://itsligo.ie/ccp/computing/prg/sg538" target="_blank">Web Development and
+                    Creative
+                    Media</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.itsligo.ie/courses/bsc-hons-computing-smart-technologies/"
+                               target="_blank">Smart
+                    Technologies</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.itsligo.ie/courses/beng-electronic-computer-engineering/"
+                               target="_blank">Electronic
+                    and Computer Engineering</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.itsligo.ie/about-it-sligo/administration/itservices/software/virtualcomputing/"
+                        target="_blank">Virtual Computing</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.itsligo.ie/courses/bsc-hons-computer-networks-cloud-infrastructure-online/"
+                        target="_blank">Computer Networks and Cloud Infrastructure</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a href="https://www.itsligo.ie/courses/ba-hons-appdesign-ux/" target="_blank">App Design
+                    and User
+                    Experience</a></td>
+        </tr>
+
+        <!--University College Cork-->
+        <tr>
+            <th rowspan="3" scope="row" class="border-bottom">University College Cork</th>
+            <th rowspan="3" class="border-bottom">UnderGrad:</th>
+            <td><a href="https://www.ucc.ie/en/ck401/" target="_blank">BSc Computer Science(Hons)</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.ucc.ie/en/ck411/" target="_blank">BSc Data Science & Analytics</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a href="https://www.ucc.ie/en/ck121/" target="_blank">BA Psychology and Computing</a></td>
+        </tr>
+
+        <!--Maynooth University Dublin-->
+        <tr>
+            <th rowspan="7" scope="row" class="border-bottom">Maynooth University Dublin</th>
+            <th rowspan="2">UnderGrad:</th>
+            <td>
+                <a href="https://www.maynoothuniversity.ie/study-maynooth/undergraduate-studies/courses/bsc-computational-thinking"
+                   target="_blank">BSc Computational Thinking</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.maynoothuniversity.ie/study-maynooth/undergraduate-studies/courses/bsc-multimedia-mobile-web-development-mws"
+                        target="_blank">BSc Multimedia, Mobile & Web Development</a></td>
+        </tr>
+        <tr>
+            <th rowspan="5" scope="row" class="border-bottom">PostGrad:</th>
+            <td>
+                <a href="https://www.maynoothuniversity.ie/study-maynooth/postgraduate-studies/courses/higher-diploma-information-technology"
+                   target="_blank">Higher Diploma in Information Technology</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.maynoothuniversity.ie/study-maynooth/postgraduate-studies/courses/higher-diploma-science-computer-science"
+                        target="_blank">Higher Diploma in Science (COMPUTER SCIENCE)</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.maynoothuniversity.ie/study-maynooth/postgraduate-studies/courses/higher-diploma-sciencesoftware-development-ft"
+                        target="blan">Higher Diploma in Science (SOFTWARE DEVELOPMENT)</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.maynoothuniversity.ie/study-maynooth/postgraduate-studies/courses/msc-computer-science-software-engineering-one-year-programme"
+                        target="blan">MSc Computer Science (SOFTWARE ENGINEERING)</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a
+                        href="https://www.maynoothuniversity.ie/study-maynooth/postgraduate-studies/courses/msc-computer-science-applied"
+                        target="_blank">MSc Computer Science</a></td>
+        </tr>
+
+        <!--NUI Galway-->
+        <tr>
+            <th rowspan="6" scope="row" class="border-bottom">NUI Galway</th>
+            <th rowspan="3">UnderGrad:</th>
+            <td>
+                <a href="http://www.nuigalway.ie/courses/undergraduate-courses/computer-science-and-information-technology.html"
+                   target="_blank">BSc in Computer Science and Information Technology</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.nuigalway.ie/courses/adult-and-continuing-education-courses/softwareengineering.html/"
+                        target="_blank">Diploma in Software Engineering</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.nuigalway.ie/courses/taught-postgraduate-courses/softwaredesignanddevelopmenthdipappscindustrystream/"
+                        target="_blank">Higher Diploma Applied Science (Software Design and Development)</a></td>
+        </tr>
+        <tr>
+            <th rowspan="3" scope="row" class="border-bottom">PostGrad:</th>
+            <td>
+                <a href="http://www.nuigalway.ie/courses/taught-postgraduate-courses/msc-in-computer-science-data-analytics.html"
+                   target="_blank">MSc Computer Science (Data Analytics)</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.nuigalway.ie/courses/taught-postgraduate-courses/software-design-development.html"
+                        target="_blank">M.Sc. Software Design & Development</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a
+                        href="http://www.nuigalway.ie/courses/adult-and-continuing-education-courses/software-engineering-and-database-technologies.htm"
+                        target="_blank">Diploma in Software Engineering</a></td>
+        </tr>
+
+        <!--Institute of Art, Design & Technology-->
+        <tr class="border-bottom">
+            <th scope="row">Institute of Art, Design & Technology</th>
+            <th>UnderGrad:</th>
+            <td><a href="http://www.iadt.ie/courses/creative-computing" target="_blank">Creative Computing</a></td>
+        </tr>
+
+        <!--IT Carlow-->
+        <tr>
+            <th rowspan="10" scope="row" class="border-bottom">IT Carlow</th>
+            <th rowspan="9">UnderGrad:</th>
+            <td>
+                <a href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/bsc-science-hons-cybercrime-itsecurity-cw258.htm"
+                   target="_blank">Bachelor of Science (Honours) in Cybercrime and IT Security</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/bsc-science-cybercrime-itsecurity-cw227.htm"
+                        target="_blank">Bachelor of Science in Cybercrime and IT Security</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/bsc-computing-in-interactive-digital-art-cw268.htm"
+                        target="_blank">NEW Bachelor of Science (Honours) Computing in Interactive Digital Art and
+                    Design</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/computing-in-interactive-digital-art-cw237.htm"
+                        target="_blank">NEW Bachelor of Science Computing in Interactive Digital Art and Design</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/cw248.htm"
+                        target="_blank">Bachelor of Science (Honours) Information Technology Management</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/cw217.htm"
+                        target="_blank">Bachelor of Science Information Technology Management</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/cw208.htm"
+                        target="_blank">Bachelor of Science (Honours) Computer Games Development</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/cw238.htm"
+                        target="_blank">Bachelor of Science (Honours) Software Development</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/cw207.htm"
+                        target="_blank">Bachelor of Science Software Development</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <th rowspan="1" scope="row" class="border-bottom">PostGrad:</th>
+            <td>
+                <a href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/cw206.htm"
+                   target="_blank">Higher Certificate Science in Computing (with Options in Computer Applications,
+                    Commercial Programming, Computer Networking)</a></td>
+        </tr>
+
+        <!--IT Tralee-->
+        <tr>
+            <th rowspan="16" scope="row" class="border-bottom">IT Tralee</th>
+            <th rowspan="14">UnderGrad:</th>
+            <td>
+                <a href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/TL614-HCinScienceComputerSystemsandNetworking/"
+                   target="_blank">Higher Certificate in Science in Computer Systems and Networking</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/TL715-BScinComputing/"
+                        target="_blank">[Level 7] Bachelor of Science in Computing</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/TL711-BScinComputingGamesDevelopment/"
+                        target="_blank">[Level 7] Bachelor of Science in Computing with Games Development</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/BScComputerSystemsandNetworking/"
+                        target="_blank">[Level 7] Bachelor of Science in Computer Systems and Networking</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/TL712-BScinComputingDigitalMedia/"
+                        target="_blank">[Level 7] Bachelor of Science in Computing with Digital Media</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/TL710-BScinComputingSoftwareDevelopment/"
+                        target="_blank">[Level 7] Bachelor of Science in Computing with Software Development</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/TL716-BScinComputerSystemsandNetworking/"
+                        target="_blank">[Level 7] Bachelor of Science in Computer Systems and Networking</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/TL815-BScHonsinComputing/"
+                        target="_blank">[Level 8] Bachelor of Science (Honours) in Computing</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/TL811-BScHonsinComputingGamesDevelopment/"
+                        target="_blank">[Level 8] Bachelor of Science (Honours) in Computing with Games Development</a>
+            </td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/TL812-BScHonsinComputingDigitalMedia/"
+                        target="_blank">[Level 8] Bachelor of Science (Honours) in Computing with Digital Media</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/TL810-BScHonsinComputingSoftwareDevelopment/"
+                        target="_blank">[Level 8] Bachelor of Science (Honours) in Computing with Software
+                    Development</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/SchoolofBusinessComputingandHumanities/Computing/BScHonsinComputingSoftwareDevelopment/"
+                        target="_blank">[Level 8] Bachelor of Science (Honours) in Computing with Software
+                    Development</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/ParttimeStudy/HigherDiplomainScienceinAppliedComputing/"
+                        target="_blank">ICT Skills Conversion Springboard + Higher Diploma in Science in Applied
+                    Computing</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/ParttimeStudy/HigherDiplomainComputingwithDataAnalytics/"
+                        target="_blank">SPRINGBOARD+ FUNDED 2018 Higher Diploma in Science in Computing with Data
+                    Analytics</a></td>
+        </tr>
+        <tr>
+            <th rowspan="2" scope="row" class="border-bottom">PostGrad:</th>
+            <td>
+                <a href="http://www.ittralee.ie/en/InformationAbout/Courses/HigherDiplomaandPostgraduateStudies/TaughtMastersProgrammes/"
+                   target="_blank">Master of Arts by Research and Thesis</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a
+                        href="http://www.ittralee.ie/en/InformationAbout/Courses/HigherDiplomaandPostgraduateStudies/FullorPart-timeResearchPostgraduateProgrammes/"
+                        target="_blank">Master of Science by Research (Computing Department)</a></td>
+        </tr>
+
+        <!--Letterkenny Institute of Technology-->
+        <tr>
+            <th rowspan="6" scope="row" class="border-bottom">Letterkenny Institute of Technology</th>
+            <th rowspan="6" class="border-bottom">UnderGrad:</th>
+            <td><a href="http://lit.ie/Courses/LC239/default.aspx" target="_blank">Computer Networks & Systems
+                    Management – BSc (Honours)</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://lit.ie/Courses/LC418/default.aspx" target="_blank">Games Design &
+                    Development – BSc
+                    (Honours) in Computing</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://lit.ie/Courses/LC236/default.aspx" target="_blank">Internet Systems
+                    Development – BSc
+                    (Honours)</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://lit.ie/Courses/LC235/default.aspx" target="_blank">Internet Systems
+                    Development –
+                    BSc</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://lit.ie/Courses/LC234/default.aspx" target="_blank">Interactive Digital Media
+                    – BSc
+                    (Honours)</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a href="http://lit.ie/Courses/LC233/default.aspx" target="_blank">Software Development –
+                    BSc
+                    (Honours)</a></td>
+        </tr>
+
+        <!--Institute of Technology Tallaght-->
+        <tr>
+            <th rowspan="4" scope="row" class="border-bottom">Institute of Technology Tallaght</th>
+            <th rowspan="4" class="border-bottom">UnderGrad:</th>
+            <td><a href="https://www.it-tallaght.ie/index.cfm/page/course?code=TA_KACOS_B" target="_blank">Computing
+                    with Software Development</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.it-tallaght.ie/index.cfm/page/course?code=TA_KACTM_B" target="_blank">Computing
+                    with IT Management</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.it-tallaght.ie/index.cfm/page/course?code=TA_KACOD_B" target="_blank">Data
+                    Analytics (Machine Learning)</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a href="https://www.it-tallaght.ie/index.cfm/page/course?code=TA_KACOI_B" target="_blank">Computing
+                    with French/ German/ Spanish</a></td>
+        </tr>
+
+        <!--Dundalk Institute of Technology-->
+        <tr>
+            <th rowspan="6" scope="row" class="border-bottom">Dundalk Institute of Technology</th>
+            <th rowspan="5">UnderGrad:</th>
+            <td>
+                <a href="https://www.dkit.ie/courses/school-of-informatics-and-creative-arts/visual-and-human-centred-computing/bsc-(hons)-computing-in-games-development.html?courseType=20"
+                   target="_blank">BSc (Hons) Computing in Games Development</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.dkit.ie/courses/school-of-informatics-and-creative-arts/visual-and-human-centred-computing/bsc-(hons)-in-computing.html?courseType=20"
+                        target="_blank">BSc (Hons) in Computing</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.dkit.ie/courses/school-of-informatics-and-creative-arts/visual-and-human-centred-computing/bsc-(hons)-in-computing-with-english-language.html?courseType=20"
+                        target="_blank">BSc (Hons) in Computing with English Language</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.dkit.ie/courses/school-of-informatics-and-creative-arts/computing-science-and-mathematics/bsc-in-computing.html?courseType=20"
+                        target="_blank">BSc in Computing</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.dkit.ie/courses/school-of-informatics-and-creative-arts/computing-science-and-mathematics/higher-certificate-in-science-in-computing-and-business.html?courseType=20"
+                        target="_blank">Higher Certificate in Science in Computing & Business</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <th rowspan="1" scope="row" class="border-bottom">PostGrad:</th>
+            <td>
+                <a href="https://www.dkit.ie/courses/school-of-informatics-and-creative-arts/computing-science-and-mathematics/msc-in-computing.html?courseType=23"
+                   target="_blank">MSc in Computing1-2 Years (Full time or Part-time)</a></td>
+        </tr>
+
+        <!--Institute of Technology Blanchardstown-->
+        <tr>
+            <th rowspan="10" scope="row" class="border-bottom">Institute of Technology Blanchardstown</th>
+            <th rowspan="8">UnderGrad:</th>
+            <td><a href="https://www.itb.ie/StudyatITB/bn013.html" target="_blank">Bachelor of Science in Computing in
+                    Information Technology</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.itb.ie/StudyatITB/bn034.html" target="_blank">Bachelor of Science in
+                    Computing in Digital Forensics and Cyber Security</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.itb.ie/StudyatITB/bn104.html" target="_blank">Bachelor of Science
+                    (Honours) in Computing</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.itb.ie/StudyatITB/bn120.html" target="_blank">Bachelor of Science
+                    (Honours) in Computing in Digital Forensics and Cyber Security</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.itb.ie/StudyatITB/bn302.html" target="_blank"> Bachelor of Science in Computing in Information Technology (BN302)
+                    (1 year add-on to BN002)</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.itb.ie/StudyatITB/bn311ft.html" target="_blank">Bachelor of Science in Computing in Digital Forensics & Cyber Security (BN311) (1 year add-on)</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.itb.ie/StudyatITB/bn402.html" target="_blank">Bachelor of Science (Honours) in Computing (BN402)
+                    (1 year add-on to BN302 or 1 year add-on to BN013)</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.itb.ie/StudyatITB/bn420ft.html" target="_blank">Bachelor of Science (Honours) in Computing in Digital Forensics and Cyber Security (BN420)</a></td>
+        </tr>
+        <tr>
+            <th rowspan="2" scope="row" class="border-bottom">PostGrad:</th>
+            <td><a href="https://www.itb.ie/StudyatITB/bn528ft.html" target="_blank">Master of Science in Computing
+                    (Applied Cyber Security)</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a href="https://www.itb.ie/StudyatITB/bn509.html" target="_blank">Higher Diploma in Science in Computing</a></td>
+        </tr>
+
+        <!--Galway-Mayo Institute of Technology-->
+        <tr>
+            <th rowspan="4" scope="row" class="border-bottom">Galway-Mayo Institute of Technology</th>
+            <th rowspan="4" class="border-bottom">UnderGrad:</th>
+            <td>
+                <a href="https://www.gmit.ie/computer-science-and-applied-physics/bachelor-science-computing-and-digital-media"
+                   target="_blank">Computing and Digital Media</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.gmit.ie/computer-science-and-applied-physics/bachelor-science-honours-computing-and-digital-media"
+                        target="_blank">Computing and Digital Media (Hons)</a></td>
+        </tr>
+        <tr>
+            <td><a
+                        href="https://www.gmit.ie/computer-science-and-applied-physics/higher-diploma-science-computing-data-analytics-ict-skills"
+                        target="_blank">Computing (Data Analytics)</a></td>
+        </tr>
+        <tr class="border-bottom">
+            <td><a
+                        href="https://www.gmit.ie/computer-science-and-applied-physics/higher-diploma-science-computing-software-development-ict"
+                        target="_blank">Computing (Software Development)</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<!--INCLUDE FOOTER FROM EJS FOOTER-->
+<% include ../partials/footer.ejs %>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description"
+          content="INGENIC Irish Network for Gender Equality at National 3rd level Institutions for Computing ">
+    <meta name="keywords" content="women, computing, third level education">
+    <meta name="author" content="Daisy Muyldermans, Enya Hand, Lilith Tamm">
+    <title>About INGENIC</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="../main.js"></script>
+    <link type="text/css" rel="stylesheet" href="/main.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<!--INCLUDING HEADER AND NAVIGATION FROM EJS HEADER-->
+<% include ../partials/header.ejs %>
+
+<!--ABOUT US INFORMATION-->
+<div class="container">
+    <br/>
+    <h1 class="menu">About INGENIC</h1>
+    <br/>
+    <img id="aboutImg" src="/images/aboutImage.png" class="rounded mx-auto d-block" alt="...">
+    <br/>
+    <div class="row">
+        <div class="col-sm">
+            <p>The Irish Network for Gender Equality in Computing (INGENIC) was founded by Dr Susan McKeever(TU Dublin)
+                and Dr Catherin Mooney(UCD) in 2017 in response to what they saw as a need to coordinate efforts to
+                address
+                Gender Equality in Computing across all third level institutions in the Republic of Ireland.</p>
+
+            <p>We aim to:</p>
+            <ul>
+                <li>Help increase the enrolment of females on third level computing programmes.</li>
+                <li>Improve on the experience of female students within computing programmes.</li>
+                <li>Identify and develop supports for staff development in line with national and international
+                    recommendations for improving gender diversity and equality.</li>
+                <li>Support collaborative approaches to address their aims.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--INCLUDE FOOTER FROM EJS FOOTER-->
+<% include ../partials/footer.ejs %>
+
+</body>
+</html>
