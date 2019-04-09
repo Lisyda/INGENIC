@@ -34,6 +34,14 @@ iframe {
     -webkit-appearance: none;
 }
 
+
+#customLinkActive {
+    background-color: #411B46;
+    color: white;
+    border: 3px solid #411B46;
+    -webkit-appearance: none;
+}
+
 #customLink1:hover, #customLink2:hover, #customLink3:hover, #customLink4:hover, #customLink5:hover, #customLink6:hover {
     background-color: #411B46;
     color: white;
@@ -44,6 +52,12 @@ iframe {
 #dropLink1, #dropLink2 {
     background-color: white;
     color: black;
+    -webkit-appearance: none;
+}
+
+#dropLinkActive {
+    background-color: #411B46;
+    color: white;
     -webkit-appearance: none;
 }
 

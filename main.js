@@ -178,22 +178,22 @@ app.use(express.static("static"));
 
 //HOMEPAGE
 app.get('/', function (req, res) {
-    res.render('index.ejs');
+    res.render('index.ejs', {"currentPage": "home"});
 });
 
 //ABOUT
 app.get('/about', function (req, res) {
-    res.render('about');
+    res.render('about', {"currentPage": "about"});
 });
 
 //CONTACT
 app.get('/contact', function (req, res) {
-    res.render('contact');
+    res.render('contact', {"currentPage": "contact"});
 });
 
 //NEWS
 app.get('/news', function (req, res) {
-    res.render('news', {"newslinks": newslinks, "item": news});
+    res.render('news', {"newslinks": newslinks, "item": news, "currentPage": "news"});
 });
 
 //NEWS ITEMS
@@ -209,18 +209,18 @@ app.get('/news/:id', function (req, res) {
 
 //RESOURCES
 app.get('/resources', function (req, res) {
-    res.render('resources');
+    res.render('resources', {"currentPage": "resources"});
 });
 
 
 //UNIVERSITIES INVOLVED
 app.get('/institutions', function (req, res) {
-    res.render('institutions');
+    res.render('institutions', {"currentPage": "institutions"});
 });
 
 //CURRENT COURSES
 app.get('/courses', function (req, res) {
-    res.render('courses');
+    res.render('courses', {"currentPage": "courses"});
 });
 
 
