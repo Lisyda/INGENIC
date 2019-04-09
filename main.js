@@ -201,7 +201,7 @@ app.get('/news/:id', function (req, res) {
     for (var i in news) {
         for (var j in news) {
             if (req.params.id === news[i][j].id) {
-                res.render("newsitem.ejs", {"item": news[i][j]});
+                res.render("newsitem.ejs", {"item": news[i][j], "currentPage": "news"});
             }
         }
     }
